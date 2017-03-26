@@ -62,8 +62,183 @@ body{
   max-width: 790px;
   width: 90%;
 }
+.Services{
+  border-bottom: solid 6px #ffffff;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+.heading{
+  font-weight: bold;
+  font-size: 2rem;
+  color: #666d89;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sub{
+  color: #666d89;
+  padding-bottom: 50px;
+}
+
+.box img{
+  float: left;
+}
+.box{
+  width: 305px;
+  height: 90px;
+  float: left;
+  color: #666d89;
+  padding-top: 20px;
+}
+.box2{
+  width: 305px;
+  height: 90px;
+  float: left;
+  color: #666d89;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.box2 img{
+  float: left;
+}
+.title{
+  float: left;
+  font-size: 1.3rem;
+  padding-left: 20px;
+  width: 220px;
+}
+
+.text{
+  float: left;
+  line-height: 20px;
+  font-size: 0.75rem;
+}
 
 
+.portfolioback{
+  background-color: #2d303a;;
+  border-bottom: solid 6px #323746;
+}
+
+.portfolio{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.designlinks a{
+  text-decoration: none;
+  outline: #666d89 solid 1px;
+}
+
+.designlinks{
+  padding-top: 20px;
+}
+
+.selected{
+  color: white;
+}
+
+.images img{
+  padding-left: 10px;
+  padding-top:10px;
+  text-align: center;
+}
+
+.about{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 450px;
+
+}
+.abouttitle{
+  float: left;
+  font-size: 1.3rem;
+  width: 220px;
+  padding-bottom: 20px;
+}
+.aboutImages{
+  float:left;
+  height: 450px;
+  width: 300px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.social img{
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.Quoteback{
+  background-color: #f06c64;;
+  border-bottom: solid 6px #ea676b;
+  height: 500px;
+}
+
+.quote{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.quoteheading{
+  font-weight: bold;
+  font-size: 2rem;
+  color: #f0d8d9;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+.quotesub{
+  color:#f0d8d9;
+  padding-bottom: 50px;
+}
+
+input {
+  background-color: #d6564f;
+  padding-bottom: 20px;
+}
+
+.write{
+  width: 620px;
+  float: left;
+  padding-bottom: 50px;
+}
+
+.contact{
+  float: left;
+  width: 300px;
+  padding-left: 20px;
+}
+.contacttitle{
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #f0d8d9;
+}
+
+.contacttext{
+  color:#f0d8d9;
+  padding-bottom: 50px;
+}
+
+.info{
+  color:#f0d8d9;
+}
+
+.footer{
+  background-color: #2d303a;
+  height: 80px;
+}
 @media screen and (max-width: 550px) {
 
   .logo{
